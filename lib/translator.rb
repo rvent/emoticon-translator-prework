@@ -3,7 +3,7 @@ require "yaml"
 
 def load_library(filename)
   # code goes here
-  YAML.load_file(filename)
+  emoticon_hash = YAML.load_file(filename)
 end
 
 def get_japanese_emoticon
