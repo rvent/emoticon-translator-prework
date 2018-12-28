@@ -18,7 +18,7 @@ def get_japanese_emoticon(filename, emoticon)
   if emoticons_dic["get_emoticon"][emoticon]
     emoticons_dic["get_emoticon"][emoticon]
   else
-    puts "Sorry, that emoticon was not found"
+    return "Sorry, that emoticon was not found"
   end
 end
 
