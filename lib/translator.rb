@@ -9,6 +9,7 @@ def load_library(filename)
     emoticon_dic["get_meaning"] = {val[0] => key}
     emoticon_dic["get_emoticon"] = {val[1] => key}
   end
+  emoticon_dic
 end
 
 def get_japanese_emoticon
