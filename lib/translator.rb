@@ -7,7 +7,7 @@ def load_library(filename)
   emoticon_dic = {"get_meaning" => {},  "get_emoticon" => {}}
   emoticon_hash.each do |key, val|
     emoticon_dic["get_meaning"][val[1]] = key
-    emoticon_dic["get_emoticon"][val[0]] = key
+    emoticon_dic["get_emoticon"][val[0]] = val[1]
   end
   emoticon_dic
 end
